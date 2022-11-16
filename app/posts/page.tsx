@@ -1,7 +1,7 @@
 // import PocketBase from 'pocketbase';
 import Link from "next/link";
 import styles from "./Posts.module.css";
-// import CreateNote from "./Create";
+import CreatePost from "./CreatePost";
 
 // export const dynamic = 'auto',
 //   dynamicParams = true,
@@ -33,7 +33,7 @@ export default async function PostsPage() {
         })}
       </div>
 
-      {/* <CreateNote /> */}
+      <CreatePost />
     </div>
   );
 }
